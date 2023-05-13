@@ -2,3 +2,7 @@
 	path = dep/openal-soft
 	url = https://github.com/kcat/openal-soft.git
 	commit = d3875f333fb6abe2f39d82caca329414871ae53b
+[submodule "dep/ogg"]
+	path = dep/ogg
+	url = https://gitlab.xiph.org/xiph/ogg.git
+	commit = e1774cd77f471443541596e09078e78fdc342e4f

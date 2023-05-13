@@ -1,0 +1,4 @@
+[submodule "dep/openal-soft"]
+	path = dep/openal-soft
+	url = https://github.com/kcat/openal-soft.git
+	commit = d3875f333fb6abe2f39d82caca329414871ae53b

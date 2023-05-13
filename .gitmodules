@@ -10,3 +10,7 @@
 	path = dep/vorbis
 	url = https://gitlab.xiph.org/xiph/vorbis.git
 	commit = 0657aee69dec8508a0011f47f3b69d7538e9d262
+[submodule "dep/theora"]
+	path = dep/theora
+	url = https://gitlab.xiph.org/xiph/theora.git
+	commit = 7ffd8b2ecfc2d93ae5e16028e7528e609266bfbf

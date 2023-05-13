@@ -6,3 +6,7 @@
 	path = dep/ogg
 	url = https://gitlab.xiph.org/xiph/ogg.git
 	commit = e1774cd77f471443541596e09078e78fdc342e4f
+[submodule "dep/vorbis"]
+	path = dep/vorbis
+	url = https://gitlab.xiph.org/xiph/vorbis.git
+	commit = 0657aee69dec8508a0011f47f3b69d7538e9d262

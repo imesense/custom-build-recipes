@@ -14,3 +14,7 @@
 	path = dep/theora
 	url = https://gitlab.xiph.org/xiph/theora.git
 	commit = 7ffd8b2ecfc2d93ae5e16028e7528e609266bfbf
+[submodule "dep/hbaoplus"]
+	path = dep/hbaoplus
+	url = https://github.com/NVIDIAGameWorks/HBAOPlus.git
+	commit = ea2885cfa9e07784648a028fdd0cb48a4c85da05

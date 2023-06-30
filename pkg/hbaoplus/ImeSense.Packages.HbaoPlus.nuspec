@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>ImeSense.Packages.HbaoPlus</id>
+        <version>4.0.0.23827312</version>
+        <title>NVIDIA HBAO+</title>
+        <authors>acidicMercury8</authors>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="file">LICENSE.txt</license>
+        <icon>img\icon.png</icon>
+        <readme>README.md</readme>
+        <projectUrl>https://www.nvidia.com/en-gb/geforce/technologies/hbao-plus/technology</projectUrl>
+        <repository type="git" url="https://github.com/imesense/custom-build-recipes" />
+        <description>HBAO+ is a SSAO algorithm designed to achieve high efficiency on DX11 GPUs</description>
+        <releaseNotes></releaseNotes>
+        <copyright>&#169; 2008-2021 NVIDIA Corporation. All rights reserved</copyright>
+        <tags>Native native nativepackage</tags>
+    </metadata>
+
+    <files>
+        <file src="..\..\dep\hbaoplus\README.md" target="README.md" />
+        <file src="..\..\dep\hbaoplus\LICENSE.txt" target="LICENSE.txt" />
+
+        <file src="icon.png" target="img\icon.png" />
+
+        <file src="..\..\dep\hbaoplus\include\*.h" target="native\include\" />
+
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D11.win32.dll" target="native\bin\Win32\" />
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D11.win32.pdb" target="native\bin\Win32\" />
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D12.win32.dll" target="native\bin\Win32\" />
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D12.win32.pdb" target="native\bin\Win32\" />
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D11.win64.dll" target="native\bin\x64\" />
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D11.win64.pdb" target="native\bin\x64\" />
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D12.win64.dll" target="native\bin\x64\" />
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D12.win64.pdb" target="native\bin\x64\" />
+
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D11.win32.lib" target="native\lib\Win32\" />
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D11.win32.exp" target="native\lib\Win32\" />
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D12.win32.lib" target="native\lib\Win32\" />
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D12.win32.exp" target="native\lib\Win32\" />
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D11.win64.lib" target="native\lib\x64\" />
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D11.win64.exp" target="native\lib\x64\" />
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D12.win64.lib" target="native\lib\x64\" />
+        <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D12.win64.exp" target="native\lib\x64\" />
+
+        <file src="..\..\dep\hbaoplus\src\shaders\src\*.hlsl" target="native\res\" />
+
+        <file src="ImeSense.Packages.HbaoPlus.targets" target="build\native\" />
+    </files>
+</package>

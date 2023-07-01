@@ -43,8 +43,6 @@
         <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D12.win64.lib" target="native\lib\x64\" />
         <file src="..\..\dep\hbaoplus\lib\GFSDK_SSAO_D3D12.win64.exp" target="native\lib\x64\" />
 
-        <file src="..\..\dep\hbaoplus\src\shaders\src\*.hlsl" target="native\res\" />
-
         <file src="ImeSense.Packages.HbaoPlus.targets" target="build\native\" />
     </files>
 </package>
